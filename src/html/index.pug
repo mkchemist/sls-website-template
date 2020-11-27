@@ -1,0 +1,44 @@
+extends layout
+
+block content
+  - var bgImage = require('../assets/images/header-4.png').default;
+  include components/navbar
+  .header-hero#hero-section(style="background-image:url("+bgImage+")")
+  div.container-fluid.my-2.rounded.bg-white
+    div.top-scroll.bg-danger#top-scroll
+      a(href="#top").nav-link.text-light
+        span.fa.fa-home
+    div#service
+      h2.text-danger Speed Services
+      hr
+      .row.mx-auto
+        .col-lg.card.px-0.mx-3
+          -var img1 = require("../assets/images/header-1.jpg").default
+          img.card-img-top.rounded(src=img1, alt="")
+          .card-body
+            p.text-muted.small Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, obcaecati? Iste cupiditate quam suscipit. Ab quae ipsam deserunt, neque soluta eveniet incidunt, asperiores unde dolorum maxime repellendus voluptates reiciendis suscipit.
+        .col-lg.card.px-0.mx-3
+          -var img2 = require("../assets/images/header-2.jpg").default
+          img.card-img-top.rounded(src=img2, alt="")
+          .card-body
+            p.text-muted.small Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, obcaecati? Iste cupiditate quam suscipit. Ab quae ipsam deserunt, neque soluta eveniet incidunt, asperiores unde dolorum maxime repellendus voluptates reiciendis suscipit.
+        .col-lg.card.px-0.mx-3
+          -var img3 = require("../assets/images/header-3.jpg").default
+          img.card-img-top.rounded(src=img3, alt="")
+          .card-body
+            p.text-muted.small Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, obcaecati? Iste cupiditate quam suscipit. Ab quae ipsam deserunt, neque soluta eveniet incidunt, asperiores unde dolorum maxime repellendus voluptates reiciendis suscipit.
+    div#about
+      h2.text-danger About Speed  
+      hr
+      p.px-2 Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi consequatur vitae saepe sunt delectus, illo eum ea officiis quidem iste labore hic eos voluptatem omnis adipisci eaque aut deleniti error facilis. Et laborum ipsum atque quia at mollitia quidem blanditiis consequuntur nemo similique animi aut quod esse amet dicta dolores iure doloribus quisquam, a in? Esse rem dicta ex non, aliquid blanditiis aut officiis quia id omnis quis ut. Voluptatum quos porro neque. Dolorem explicabo odio nihil dolorum, vel labore nostrum quis blanditiis tempora odit, voluptatem assumenda enim sit sapiente esse dignissimos error autem perspiciatis ad repellendus eaque beatae. Necessitatibus repellat corrupti asperiores, error sit quas, eum pariatur nostrum vel, sint dolore suscipit culpa. Aspernatur tenetur placeat similique totam veritatis repellat. Ut neque minus cum. Quod, assumenda quaerat. Similique, molestiae voluptates obcaecati recusandae totam nulla itaque ea non, excepturi minima at earum, libero quasi! Deleniti quae error eaque sapiente. Dolorum repellendus, consectetur alias neque doloribus iusto sapiente suscipit accusamus necessitatibus, vel fugit atque, natus odio repellat sequi quia. Maxime quas eos est iusto ea rem labore molestias enim facere maiores ipsa repellat a, culpa exercitationem voluptates expedita consequuntur minus natus fugit optio earum nulla ducimus. Voluptatibus vitae quod ex architecto!
+    div#contact
+      h2.text-danger Contact Speed
+      p.px-2 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae doloremque odio vero atque ipsum id inventore voluptatum dolor. Quia quis neque odit, dolor, minus nostrum explicabo sint, ab fugiat excepturi error. Quos hic culpa ipsum, quod corrupti earum voluptates esse sequi sit delectus aperiam dolores? Delectus nemo id numquam, aliquam cupiditate incidunt beatae tenetur vitae fugit eveniet porro? Consequuntur sit fuga commodi molestiae aliquid ratione blanditiis qui molestias ducimus maiores. Laboriosam sint laudantium natus perspiciatis magni voluptates, deserunt harum distinctio, ad itaque impedit quis sed repudiandae cumque inventore dolor consequatur neque laborum? Voluptate fugit eligendi optio voluptas nisi et delectus quisquam quod recusandae asperiores ipsa aperiam eaque perspiciatis, quam illo cumque odio soluta voluptates odit quos nam id animi beatae alias. Voluptatibus amet at architecto, nam cumque nostrum dolore! Quia magnam voluptatibus possimus est illo nihil vel repellendus omnis officia, molestiae ad. Pariatur rem accusantium, molestias assumenda consequatur distinctio vero, suscipit ad, recusandae repellendus quia quasi corporis inventore asperiores. Blanditiis ipsum, praesentium debitis odit corporis aliquid commodi aut cupiditate, quo tempora quod sunt, maxime aspernatur sit. Reiciendis dolores quisquam sit qui aut commodi a dolorem voluptate minima accusamus, animi eaque laudantium delectus molestiae, modi, hic voluptatum natus? Esse ratione earum doloribus quam est aperiam magnam doloremque corrupti provident beatae quae repellendus, eaque blanditiis, rerum modi officia vel ab minima consequuntur rem necessitatibus dignissimos. Voluptate aliquam alias quo repellendus tenetur nisi illum. Numquam sint est voluptate, a aliquam exercitationem maxime dolorum voluptatibus amet debitis repellat necessitatibus incidunt delectus pariatur voluptatum non fugit alias. Beatae vitae cum magnam modi atque sapiente, eos assumenda fuga aliquam, voluptates quia. Aliquam assumenda ea numquam. Tempora ea repellendus qui odit nostrum ut magni sapiente a illo distinctio inventore, exercitationem ullam itaque odio voluptates tenetur. Quae illo quam nesciunt odio quaerat libero deserunt commodi in velit debitis.
+  .footer.bg-danger.text-white.p-2
+    .row.mx-auto
+      .col-lg
+        p Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo id eum assumenda totam possimus tempore ad reprehenderit nemo autem deleniti!
+      .col-lg 
+        p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio omnis consectetur repudiandae delectus possimus assumenda exercitationem debitis a impedit aliquam tenetur non, dolore consequatur rerum voluptates minus reprehenderit expedita ipsa?
+      .col-lg 
+        p Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque voluptatibus mollitia nam dolore quas pariatur magnam nihil earum veritatis doloribus incidunt quisquam, repellat nisi. Nulla!    
